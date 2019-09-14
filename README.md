@@ -1,6 +1,8 @@
 # seoEraTask
 
-After cloning the project, migrate the database.
+After cloning the project, run this command to install the Vendor files 
+    - composer update
+Then migrate the database.
   - php artisan migrate
 Then run the seeders using this command
   - php artisan db:seed
